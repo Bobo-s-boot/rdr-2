@@ -233,35 +233,35 @@ nav a:hover {
 
 /* --- PLATFORMS SECTION --- */
 .platforms {
-  background-color: var(--rdr-paper); /* Ставим черный фон, как на картинке */
-  color: #fff; /* Белый текст */
+  background-color: var(--rdr-paper);
+  color: #fff;
   text-align: center;
-  padding: 60px 20px; /* Отступы сверху и снизу */
+  padding: 60px 20px;
   max-width: 100%;
 }
 .platforms h2 {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.8rem;
   text-transform: uppercase;
-  margin-bottom: 40px; /* Отступ от текста до иконок */
+  margin-bottom: 40px;
   letter-spacing: 2px;
 }
 .platforms .platforms-list {
-  display: flex; /* Выстраиваем в ряд */
-  justify-content: center; /* Центрируем по горизонтали */
-  align-items: center; /* Центрируем по вертикали */
-  gap: 60px; /* Расстояние между иконками */
-  flex-wrap: wrap; /* Чтобы на мобильных переносились */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
   margin-top: 16px;
 }
 .platforms .platforms-list img {
-  height: 60px; /* Размер иконок (можно менять) */
-  width: auto; /* Ширина подстроится автоматически */
+  height: 60px;
+  width: auto;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
 .platforms .platforms-list img:hover {
-  transform: scale(1.1); /* Эффект увеличения при наведении */
+  transform: scale(1.1);
 }
 
 /* --- FOOTER --- */
